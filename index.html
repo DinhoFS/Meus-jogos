@@ -1,3 +1,19 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#14161f">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Foral">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>html,body{margin:0;height:100%;overflow:hidden}</style>
+</head>
+<body>
 <title>Foral: Ember &amp; Oath</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -5325,3 +5341,7 @@ textarea.minput { font-size: 13px; resize: vertical; font-family: ui-monospace, 
   window.__aldeia = { paveRoad, bfs, adjustWorkers, checkPlace, sim, serialize, applySave, newGame, validSave, state: () => G, place, season, ui: () => { draw(); renderStats(); renderInfo(); renderLog(); renderLord(); } };
 })();
 </script>
+
+<script>if('serviceWorker' in navigator&&location.protocol.startsWith('http'))addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));</script>
+</body>
+</html>
